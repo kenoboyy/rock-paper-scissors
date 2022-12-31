@@ -1,0 +1,44 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    color: rgb(33, 33, 33);
+}
+.container{
+    display: flex;
+}
+.batu, .gunting, .kertas{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    justify-content: center;
+    text-align: center;
+    background-color: #ffe602;
+    border-radius: 50%;
+    width: 120px;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+}
+button{
+    color: black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    width: 70%;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.2s;
+}
+button:hover{
+  background-color: #fff3cd;
+}
+
+
